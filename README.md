@@ -39,6 +39,8 @@ To add a new server in PgAdmin:
 
 ### Seed DB
 
+Create users inside users-api
+
 ```touch src/main/resources/db/migration/afterMigrate.sql```
 
 ```INSERT INTO users(user_name, first_name, last_name)
